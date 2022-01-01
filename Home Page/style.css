@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  background-image: url(/images/website\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open-Sans", Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#main-logo {
+  color: white;
+  font-size: 40px;
+  float: left;
+}
+
+nav {
+  float: right;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 45px;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: rgb(156, 154, 154);
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0%;
+  background: rgb(156, 154, 154);
+  position: absolute;
+  top: 0;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+#main-section {
+  margin-top: 12%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#main-section .container {
+  width: 600px;
+  height: 300px;
+}
+
+#main-section h1 {
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+}
+
+#main-section a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+  font-size: 20px;
+  border: white 2px solid;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+#main-section a:hover {
+  background: white;
+  color: black;
+  transition: 0.3s;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  background: lightblue;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+  padding: 5px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: gray;
+  transition: 0.3s;
+}
