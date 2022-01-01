@@ -9,7 +9,6 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   color: black;
   font-size: 15px;
-  font-weight: bold;
 }
 
 .container {
@@ -112,6 +111,11 @@ nav a:hover::before {
 #contact h1 {
   text-align: center;
 }
+
+p {
+  font-weight: bold;
+}
+
 input[type="text"] {
   height: 25px;
   width: 350px;
