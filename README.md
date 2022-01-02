@@ -1,13 +1,9 @@
 # Personal Website
 
----
-
 ## What Does it Contain?
 
 In my website, you can read about my interests, projects, aspirations, and my field of study.
 Think of it as my resume but more in-depth about who I am and written in code.
-
----
 
 ## Improvements
 
