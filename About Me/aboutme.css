@@ -15,14 +15,8 @@ body {
   overflow: hidden;
 }
 
-#main-logo {
-  color: black;
-  font-size: 40px;
-  float: left;
-}
-
 nav {
-  float: right;
+  text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
 

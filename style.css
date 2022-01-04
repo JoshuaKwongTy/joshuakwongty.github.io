@@ -15,14 +15,8 @@ body {
   overflow: hidden;
 }
 
-#main-logo {
-  color: white;
-  font-size: 40px;
-  float: left;
-}
-
 nav {
-  float: right;
+  text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -96,31 +90,5 @@ nav a:hover::before {
 #main-section a:hover {
   background: white;
   color: black;
-  transition: 0.3s;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-footer p {
-  background: lightblue;
-  color: black;
-  text-align: center;
-  font-size: 15px;
-  margin: 0;
-  padding: 5px 0;
-}
-
-footer a {
-  text-decoration: none;
-  color: black;
-}
-
-footer a:hover {
-  text-decoration: underline;
-  color: gray;
   transition: 0.3s;
 }

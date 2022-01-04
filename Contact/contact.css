@@ -17,14 +17,8 @@ body {
   overflow: hidden;
 }
 
-#main-logo {
-  color: black;
-  font-size: 40px;
-  float: left;
-}
-
 nav {
-  float: right;
+  text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -108,6 +102,10 @@ nav a:hover::before {
   transition: 0.3s;
 }
 
+.main-card {
+  margin-top: 5%;
+}
+
 #contact h1 {
   text-align: center;
 }
@@ -139,33 +137,4 @@ input[type="text"]:focus {
 
 #error {
   color: red;
-}
-
-footer {
-  clear: both;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  margin-top: 10px;
-}
-
-footer p {
-  background: lightskyblue;
-  color: black;
-  text-align: center;
-  font-size: 15px;
-  margin: 0;
-  padding: 5px 0;
-}
-
-footer a {
-  text-decoration: none;
-  color: black;
-  background: lightskyblue;
-}
-
-footer a:hover {
-  text-decoration: underline;
-  color: white;
-  transition: 0.3s;
 }
