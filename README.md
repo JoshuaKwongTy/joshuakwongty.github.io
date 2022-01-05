@@ -15,3 +15,6 @@ I will find a resolution to this in the future, so sit tight and wait :)
 
 The design of the website might also change from time to time to improve usability and comfortability for the user.
 If you have any suggestions, feel free to reach out to me!
+
+The website is also not dynamic. It works best if your screen is bigger than 1500 pixels wide. In the future, I plan to
+implement @media into my css code.

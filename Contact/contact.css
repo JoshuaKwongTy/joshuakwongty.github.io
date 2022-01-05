@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 * {
-  background-color: lightblue;
+  background-color: #6a3488;
 }
 
 body {
-  margin: 0px;
+  margin: 0;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  color: black;
-  font-size: 15px;
+  color: white;
 }
 
 .container {
@@ -38,12 +37,12 @@ nav li {
 nav a {
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
+  color: white;
   font-size: 18px;
 }
 
 nav a:hover {
-  color: white;
+  color: #feb970;
 }
 
 nav a::before {
@@ -51,7 +50,7 @@ nav a::before {
   display: block;
   height: 5px;
   width: 0%;
-  background: white;
+  background: #feb970;
   position: absolute;
   top: 0;
   transition: all ease-in-out 250ms;
@@ -59,47 +58,6 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
-}
-
-.navigation {
-  position: fixed;
-  margin-top: 10%;
-  width: 200px;
-  height: 215px;
-  background: #818d92;
-  border-radius: 5%;
-  transition: 0.5s;
-  overflow: hidden;
-}
-
-.navigation ul {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0;
-}
-
-.navigation ul li {
-  position: relative;
-  width: 100%;
-  list-style: none;
-  padding: 10%;
-}
-
-.navigation ul li a {
-  position: relative;
-  display: block;
-  width: 100%;
-  display: flex;
-  text-decoration: none;
-  color: #fff;
-  text-align: left;
-}
-
-.navigation a:hover {
-  color: black;
-  transition: 0.3s;
 }
 
 .main-card {
@@ -119,6 +77,8 @@ input[type="text"] {
   width: 350px;
   border-radius: 10px;
   margin-left: 10px;
+  border-color: #4a1d63;
+  color: white;
 }
 
 input[type="text"]:focus {
@@ -128,11 +88,6 @@ input[type="text"]:focus {
 #submitbutton {
   background-color: white;
   border-radius: 5px;
-}
-
-#submitbutton:hover {
-  transition: 0.2s;
-  box-shadow: 3px 3px 5px gray;
 }
 
 #error {

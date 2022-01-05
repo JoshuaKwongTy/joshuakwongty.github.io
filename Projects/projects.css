@@ -5,12 +5,12 @@ html {
 }
 
 body {
-  background: #586a6a;
+  background: #6a3488;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   margin: 0;
-  color: black;
+  color: white;
 }
 
 .container {
@@ -45,7 +45,7 @@ nav a {
 }
 
 nav a:hover {
-  color: rgb(156, 154, 154);
+  color: #feb970;
 }
 
 nav a::before {
@@ -53,7 +53,7 @@ nav a::before {
   display: block;
   height: 5px;
   width: 0%;
-  background: rgb(156, 154, 154);
+  background: #feb970;
   position: absolute;
   top: 0;
   transition: all ease-in-out 250ms;
@@ -68,7 +68,7 @@ nav a:hover::before {
   margin-top: 10%;
   width: 200px;
   height: 215px;
-  background: #818d92;
+  background: #feb970;
   border-radius: 5%;
   transition: 0.5s;
   overflow: hidden;
@@ -104,12 +104,16 @@ nav a:hover::before {
   transition: 0.3s;
 }
 
+b {
+  color: #feb970;
+}
+
 #introduction-card {
   margin-top: 5%;
 }
 
 .main-card {
-  background-color: #818d92;
+  background-color: #4a1d63;
   margin-left: 15%;
   text-align: center;
 }
@@ -170,13 +174,13 @@ nav a:hover::before {
 }
 
 .paragraph-link {
-  color: rgb(199, 199, 199);
+  color: gray;
   text-decoration: none;
 }
 
 .paragraph-link:hover {
   transition: 0.3s;
-  color: white;
+  color: #feb970;
   text-decoration: underline;
 }
 
@@ -211,8 +215,8 @@ footer {
 }
 
 footer p {
-  background: #818d92;
-  color: black;
+  background: #4a1d63;
+  color: white;
   text-align: center;
   font-size: 15px;
   margin: 0;
@@ -221,11 +225,11 @@ footer p {
 
 footer a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 footer a:hover {
   text-decoration: underline;
-  color: gray;
+  color: #feb970;
   transition: 0.3s;
 }

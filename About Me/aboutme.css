@@ -5,8 +5,8 @@ body {
   background-size: cover;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   margin: 0;
-  color: black;
-  background-color: #b8d8d8;
+  color: white;
+  background-color: #6a3488;
 }
 
 .container {
@@ -36,12 +36,12 @@ nav li {
 nav a {
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
+  color: white;
   font-size: 18px;
 }
 
 nav a:hover {
-  color: #43bfbf;
+  color: #feb970;
 }
 
 nav a::before {
@@ -49,7 +49,7 @@ nav a::before {
   display: block;
   height: 5px;
   width: 0%;
-  background: #43bfbf;
+  background: #feb970;
   position: absolute;
   top: 0;
   transition: all ease-in-out 250ms;
@@ -61,11 +61,10 @@ nav a:hover::before {
 
 .section-body {
   text-align: center;
-  background: #7a9e9f;
+  background: #4a1d63;
   border-start-start-radius: 10px;
   border-start-end-radius: 10px;
   margin-top: 5%;
-  color: black;
 }
 
 .move-left {
@@ -102,7 +101,7 @@ nav a:hover::before {
 }
 
 .cards-container {
-  background-color: #7a9e9f;
+  background-color: #4a1d63;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-bottom: 35px;
@@ -128,7 +127,7 @@ nav a:hover::before {
 .front img {
   height: 400px;
   width: 350px;
-  opacity: 0.5;
+  opacity: 0.7;
   border-radius: 5%;
 }
 
@@ -155,9 +154,9 @@ nav a:hover::before {
 }
 
 .back {
-  background-color: #92dee0;
+  background-color: #feb970;
   height: 400px;
-  width: 340px;
+  width: 350px;
   border-radius: 5%;
   transform: perspective(600px) rotateY(180deg);
 }
@@ -188,8 +187,7 @@ footer {
 }
 
 footer p {
-  background: #4f6367;
-  color: black;
+  background: #4a1d63;
   text-align: center;
   font-size: 15px;
   margin: 0;
@@ -198,11 +196,11 @@ footer p {
 
 footer a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 footer a:hover {
   text-decoration: underline;
-  color: #43bfbf;
+  color: #feb970;
   transition: 0.3s;
 }
