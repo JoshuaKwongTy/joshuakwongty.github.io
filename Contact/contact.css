@@ -68,10 +68,6 @@ nav a:hover::before {
   text-align: center;
 }
 
-p {
-  font-weight: bold;
-}
-
 input[type="text"] {
   height: 25px;
   width: 350px;
@@ -88,6 +84,8 @@ input[type="text"]:focus {
 #submitbutton {
   background-color: white;
   border-radius: 5px;
+  height: 25px;
+  width: 75px;
 }
 
 #error {
