@@ -104,6 +104,7 @@ nav a:hover::before {
 .cards-container {
   background-color: #4a1d63;
   display: grid;
+  height: 500px;
   grid-template-columns: repeat(3, 1fr);
   margin-bottom: 35px;
   border-end-end-radius: 10px;
@@ -111,10 +112,10 @@ nav a:hover::before {
 }
 
 .card {
-  margin: 10px 10px 30px 25px;
   cursor: pointer;
-  width: 340px;
-  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .front,
@@ -126,8 +127,8 @@ nav a:hover::before {
 }
 
 .front img {
-  height: 400px;
   width: 350px;
+  height: 400px;
   opacity: 0.7;
   border-radius: 5%;
 }
@@ -181,7 +182,7 @@ nav a:hover::before {
 }
 
 footer {
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
   margin-top: 10px;
