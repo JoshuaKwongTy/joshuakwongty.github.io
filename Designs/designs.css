@@ -118,9 +118,9 @@ footer {
     transition: 0.3s;
   }
 
-  @media (min-width: 1536px){
+  @media (max-width: 2250px){
     .individual-image img{
-        width: 600px;
-        height: 700px;
+        width: 500px;
+        height: 600px;
     }
   }
