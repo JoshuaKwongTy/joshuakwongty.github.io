@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   margin: 0;
   color: white;
-  background-color: #6a3488;
+  background-color: #44318d;
 }
 
 .container {
@@ -61,7 +61,7 @@ nav a:hover::before {
 
 .section-body {
   text-align: center;
-  background: #4a1d63;
+  background: #44318d;
   border-start-start-radius: 10px;
   border-start-end-radius: 10px;
   margin-top: 5%;
@@ -75,8 +75,8 @@ nav a:hover::before {
 
 .move-right img {
   border-radius: 10px;
-  height: 350px;
-  width: 340px;
+  height: 400px;
+  width: 400px;
 }
 
 .move-right {
@@ -102,7 +102,7 @@ nav a:hover::before {
 }
 
 .cards-container {
-  background-color: #4a1d63;
+  background-color: #44318d;
   display: grid;
   height: 500px;
   grid-template-columns: repeat(3, 1fr);
@@ -127,8 +127,8 @@ nav a:hover::before {
 }
 
 .front img {
-  width: 350px;
-  height: 400px;
+  width: 500px;
+  height: 550px;
   opacity: 0.7;
   border-radius: 5%;
 }
@@ -140,25 +140,25 @@ nav a:hover::before {
 .front-content-1 {
   position: absolute;
   top: 10px;
-  left: 50px;
+  left: 130px;
 }
 
 .front-content-2 {
   position: absolute;
   top: 10px;
-  left: 70px;
+  left: 150px;
 }
 
 .front-content-3 {
   position: absolute;
   top: 10px;
-  left: 100px;
+  left: 180px;
 }
 
 .back {
   background-color: #feb970;
-  height: 400px;
-  width: 350px;
+  height: 550px;
+  width: 500px;
   border-radius: 5%;
   transform: perspective(600px) rotateY(180deg);
 }
@@ -189,7 +189,7 @@ footer {
 }
 
 footer p {
-  background: #4a1d63;
+  background: #8265A7;
   text-align: center;
   font-size: 15px;
   margin: 0;
@@ -205,4 +205,31 @@ footer a:hover {
   text-decoration: underline;
   color: #feb970;
   transition: 0.3s;
+}
+
+@media (max-width: 2250px){
+  .move-right img{
+    width: 350px;
+    height: 350px;
+  }
+  .front img{
+    width: 350px;
+    height: 400px;
+  }
+  .back{
+    width: 350px;
+    height: 400px;
+  }
+  .front-content-1{
+    left: 50px;
+  }
+  .front-content-2{
+    left: 70px;
+  }
+  .front-content-3{
+    left: 100px;
+  }
+  footer{
+    position: relative;
+  }
 }

@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   margin: 0;
   color: white;
-  background-color: #6a3488;
+  background-color: #44318d;
 }
 
 .container {
@@ -59,10 +63,51 @@ nav a:hover::before {
   width: 100%;
 }
 
+.navigation {
+  position: fixed;
+  margin-top: 10%;
+  width: 200px;
+  height: 280px;
+  background: #feb970;
+  border-radius: 5%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.navigation ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.navigation ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+  padding: 10%;
+}
+
+.navigation ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+}
+
+.navigation a:hover {
+  color: black;
+  transition: 0.3s;
+}
+
 .starting-header {
     margin-top: 50px;
-    border-start-start-radius: 10px;
-    border-start-end-radius: 10px;
+    /* border-start-start-radius: 10px;
+    border-start-end-radius: 10px; */
 }
 
 .container h1{
@@ -100,7 +145,7 @@ footer {
   }
   
   footer p {
-    background: #4a1d63;
+    background: #8265A7;
     text-align: center;
     font-size: 15px;
     margin: 0;
@@ -122,5 +167,9 @@ footer {
     .individual-image img{
         width: 500px;
         height: 600px;
+    }
+    .navigation{
+      width: 170px;
+      height: 255px;
     }
   }
